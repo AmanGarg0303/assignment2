@@ -24,10 +24,10 @@ const BuilderForm = () => {
       {addField && (
         <div className=" border my-20">
           <h2 className=" border-b text-left">New from item</h2>
-          <div className="flex justify-around my-5">
+          <div className="flex justify-around my-6">
             <h2>Item type:</h2>
             <div className="flex justify-around">
-              <div className="form-check form-check-inline mx-2">
+              <div className="form-check form-check-inline mx-3">
                 <input
                   className="form-check-input form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                   type="radio"
@@ -82,7 +82,7 @@ const BuilderForm = () => {
             </label>
           </div>
 
-          <div className="flex justify-around my-5">
+          <div className="flex justify-around my-6">
             <h2>Is plural field:</h2>
             <div className="flex justify-around">
               <div className="form-check form-check-inline mx-2">
@@ -101,7 +101,7 @@ const BuilderForm = () => {
                   Yes
                 </label>
               </div>
-              <div className="form-check form-check-inline mx-2">
+              <div className="form-check form-check-inline mx-3">
                 <input
                   className="form-check-input form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                   type="radio"
