@@ -11,10 +11,10 @@ const BuilderForm = () => {
       <div className="border">
         <h2 className="text-left border-b">App Fields</h2>
 
-        <div className="border border-dotted p-5 m-5">No fields exists</div>
+        <div className="border border-dotted m-6 p-6">No fields exists</div>
 
         <button
-          className="border hover:bg-gray-200"
+          className="border hover:bg-gray-300"
           onClick={() => setAddField(true)}
         >
           + add a field
@@ -22,7 +22,7 @@ const BuilderForm = () => {
       </div>
 
       {addField && (
-        <div className=" border my-20">
+        <div className=" border my-30">
           <h2 className=" border-b text-left">New from item</h2>
           <div className="flex justify-around my-6">
             <h2>Item type:</h2>
